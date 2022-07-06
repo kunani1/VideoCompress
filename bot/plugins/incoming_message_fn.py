@@ -64,7 +64,7 @@ async def incoming_start_message_f(bot, update):
             user = await client.get_chat_member(UPDATES_CHANNEL, message.chat.id)
             if user.status == "kicked":
                 await message.reply_text(
-                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/linux_repo).",
+                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/KSBOTSOFFICALSUPPORT).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
