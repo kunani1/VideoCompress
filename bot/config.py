@@ -4,7 +4,7 @@ from bot.get_cfg import get_config
 
 class Config(object):
     # You can keep this default
-    SESSION_NAME = "AHCompressorBot"
+    SESSION_NAME = "AH_HVEC_CompressBot"
     # Put MongoDB URL
     DATABASE_URL = "mongodb+srv://hi:hi@cluster0.ux5qu.mongodb.net/cluster0?retryWrites=true&w=majority"
     # get a token from @BotFather
