@@ -34,7 +34,7 @@ jobs:
 
       - name: Clone The Secret Repository
         run: |
-          git clone https://${{ secrets.GH_TOKEN }}@github.com/KSBOTSOFFICAL/compressor -b ${Branch} source
+          git clone https://${{ secrets.GH_TOKEN }}@github.com/KSBOTSOFFICAL/VideoCompress -b ${Branch} source
 
       - name: Compile The Docker Container
         run: |
