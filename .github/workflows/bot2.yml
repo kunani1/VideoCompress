@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
    
 env:
-  GitHubMail: "kunanisaitarun123@gmail.com"
-  GitHubName: "kunanisai" 
+  GitHubMail: "ksprojects0@gmail.com"
+  GitHubName: "KSBOTSOFFICAL" 
   Branch: "main"
 
 jobs:
@@ -34,7 +34,7 @@ jobs:
 
       - name: Clone The Secret Repository
         run: |
-          git clone https://${{ secrets.GH_TOKEN }}@github.com/kunanisai/VideoCompress/compress -b ${Branch} source
+          git clone https://${{ secrets.GH_TOKEN }}@github.com/KSBOTSOFFICAL/VideoCompress -b ${Branch} source
 
       - name: Compile The Docker Container
         run: |
