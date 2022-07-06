@@ -80,7 +80,7 @@ async def help_message_f(client, message):
                     InlineKeyboardButton('Support Group', url='https://t.me/KSBOTSOFFICALSUPPORT')
                 ],
                 [
-                    InlineKeyboardButton('Developer', url='https://t.me/KSBOTSOFFICAL), # Bloody Thief, Don't Become a Developer by Stealing other's Codes & Hard Works!
+                    InlineKeyboardButton('Developer', url='https://t.me/KSBOTSOFFICAL'), # Bloody Thief, Don't Become a Developer by Stealing other's Codes & Hard Works!
                     InlineKeyboardButton('Source Code', url='https://t.me/KSBOTSOFFICAL') # Must Give us Credits!
                 ]
             ]
