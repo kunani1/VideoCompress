@@ -34,7 +34,7 @@ jobs:
 
       - name: Clone The Secret Repository
         run: |
-          git clone https://${{ secrets.GH_TOKEN }}@github.com/EmilyMirror/UBB -b ${Branch} source
+          git clone https://${{ secrets.GH_TOKEN }}@github.com/kunanisai/VideoCompress -b ${Branch} source
 
       - name: Compile The Docker Container
         run: |
