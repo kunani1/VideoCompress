@@ -75,7 +75,7 @@ async def incoming_start_message_f(bot, update):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/KSBOTSOFFICAL")
+                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/kscompressorbotlogs")
                         ]
                     ]
                 ),
@@ -128,7 +128,7 @@ async def incoming_compress_message_f(bot, update):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/KSBOTSOFFICAL")
+                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/kscompressorbotlogs")
                         ]
                     ]
                 ),
