@@ -13,7 +13,7 @@ class Config(object):
     APP_ID = "2929027"
     API_HASH = "2beecc3ee357e6e3f2b2e783d4159f9f"
     LOG_CHANNEL = "-1001507893914"
-    UPDATES_CHANNEL = "KSBOTSOFFICAL"
+    UPDATES_CHANNEL = "kscompressorbotlogs"
      # Without `@` LOL
      # Get these values from my.telegram.org
     # array to store the channel ID who are authorized to use the bot
