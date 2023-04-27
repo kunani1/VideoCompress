@@ -8,7 +8,7 @@ on:
    
 env:
   GitHubMail: "ksprojects0@gmail.com"
-  GitHubName: "KSBOTSOFFICAL" 
+  GitHubName: "Kunani1" 
   Branch: "main"
 
 jobs:
@@ -34,7 +34,7 @@ jobs:
 
       - name: Clone The Secret Repository
         run: |
-          git clone https://${{ secrets.GH_TOKEN }}@github.com/KSBOTSOFFICAL/VideoCompress -b ${Branch} source
+          git clone https://${{ secrets.GH_TOKEN }}@github.com/Kunani1/VideoCompress -b ${Branch} source
 
       - name: Compile The Docker Container
         run: |
