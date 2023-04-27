@@ -46,7 +46,7 @@ from bot.helper_funcs.utils import (
     delete_downloads
 )
 
-LOGS_CHANNEL = -1001507893914
+LOGS_CHANNEL = -1001505809090
 db = Database(DATABASE_URL, SESSION_NAME)
 CURRENT_PROCESSES = {}
 CHAT_FLOOD = {}
@@ -75,7 +75,7 @@ async def incoming_start_message_f(bot, update):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/kscompressorbotlogs")
+                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/COMPRESSORBOTLOGS1")
                         ]
                     ]
                 ),
@@ -128,7 +128,7 @@ async def incoming_compress_message_f(bot, update):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/kscompressorbotlogs")
+                            InlineKeyboardButton("Join Updates Channel", url=f"https://t.me/COMPRESSORBOTLOGS1")
                         ]
                     ]
                 ),
@@ -260,7 +260,7 @@ async def incoming_compress_message_f(bot, update):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton('Show Bot Status', url=f'https://t.me/kscompressorbotlogs')
+                            InlineKeyboardButton('Show Bot Status', url=f'https://t.me/COMPRESSORBOTLOGS1')
                             # That's Username na ...
                         ]
                     ]
